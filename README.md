@@ -44,3 +44,5 @@
   - FactoryBean (Spring)
 
 ### Builder Pattern
+
+### Prototype Pattern
