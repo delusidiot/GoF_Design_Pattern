@@ -1,6 +1,6 @@
 # GoF DesignPattern
 
-## Creational Pattern
+## Creational Patterns
 
 ### Singleton Pattern
 
@@ -46,3 +46,7 @@
 ### Builder Pattern
 
 ### Prototype Pattern
+
+## Structural Patterns
+
+### Adapter Pattern
