@@ -1,7 +1,7 @@
 package me.delusidiot.gof.abstract_factory;
 
-import me.delusidiot.gof.abstract_factory.after.Ship;
-import me.delusidiot.gof.abstract_factory.etc.FactoryBeanConfig;
+import me.delusidiot.gof.creational_patterns.abstract_factory.after.Ship;
+import me.delusidiot.gof.creational_patterns.abstract_factory.etc.FactoryBeanConfig;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;

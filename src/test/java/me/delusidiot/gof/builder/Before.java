@@ -1,6 +1,6 @@
 package me.delusidiot.gof.builder;
 
-import me.delusidiot.gof.builder.before.TourPlan;
+import me.delusidiot.gof.creational_patterns.builder.before.TourPlan;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

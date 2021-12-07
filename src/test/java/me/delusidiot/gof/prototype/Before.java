@@ -1,7 +1,7 @@
 package me.delusidiot.gof.prototype;
 
-import me.delusidiot.gof.prototype.before.GithubIssue;
-import me.delusidiot.gof.prototype.before.GithubRepository;
+import me.delusidiot.gof.creational_patterns.prototype.before.GithubIssue;
+import me.delusidiot.gof.creational_patterns.prototype.before.GithubRepository;
 import org.junit.jupiter.api.Test;
 
 public class Before {

@@ -1,6 +1,6 @@
 package me.delusidiot.gof.abstract_factory;
 
-import me.delusidiot.gof.abstract_factory.after.*;
+import me.delusidiot.gof.creational_patterns.abstract_factory.after.*;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

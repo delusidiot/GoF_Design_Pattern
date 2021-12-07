@@ -1,8 +1,8 @@
 package me.delusidiot.gof.prototype;
 
-import me.delusidiot.gof.prototype.after.GithubIssue;
-import me.delusidiot.gof.prototype.after.GithubIssueDeepCopy;
-import me.delusidiot.gof.prototype.after.GithubRepository;
+import me.delusidiot.gof.creational_patterns.prototype.after.GithubIssue;
+import me.delusidiot.gof.creational_patterns.prototype.after.GithubIssueDeepCopy;
+import me.delusidiot.gof.creational_patterns.prototype.after.GithubRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

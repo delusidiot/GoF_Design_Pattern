@@ -1,5 +1,6 @@
 package me.delusidiot.gof.singleton;
 
+import me.delusidiot.gof.creational_patterns.singleton.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

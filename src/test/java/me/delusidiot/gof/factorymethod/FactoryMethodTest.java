@@ -1,9 +1,9 @@
 package me.delusidiot.gof.factorymethod;
 
-import me.delusidiot.gof.factorymethod.after.BlackShipFactory;
-import me.delusidiot.gof.factorymethod.after.Client;
-import me.delusidiot.gof.factorymethod.after.Ship;
-import me.delusidiot.gof.factorymethod.after.WhiteShipFactory;
+import me.delusidiot.gof.creational_patterns.factorymethod.after.BlackShipFactory;
+import me.delusidiot.gof.creational_patterns.factorymethod.after.Client;
+import me.delusidiot.gof.creational_patterns.factorymethod.after.Ship;
+import me.delusidiot.gof.creational_patterns.factorymethod.after.WhiteShipFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

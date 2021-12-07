@@ -1,9 +1,9 @@
 package me.delusidiot.gof.builder;
 
-import me.delusidiot.gof.builder.after.DefaultTourBuilder;
-import me.delusidiot.gof.builder.after.TourDirector;
-import me.delusidiot.gof.builder.after.TourPlan;
-import me.delusidiot.gof.builder.after.TourPlanBuilder;
+import me.delusidiot.gof.creational_patterns.builder.after.DefaultTourBuilder;
+import me.delusidiot.gof.creational_patterns.builder.after.TourDirector;
+import me.delusidiot.gof.creational_patterns.builder.after.TourPlan;
+import me.delusidiot.gof.creational_patterns.builder.after.TourPlanBuilder;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -20,13 +20,13 @@ public class After {
                 .addPlan(0, "checkin")
                 .addPlan(0, "dinner")
                 .getPlan();
-        Assertions.assertThat(plan).isInstanceOf(me.delusidiot.gof.builder.before.TourPlan.class);
+        Assertions.assertThat(plan).isInstanceOf(TourPlan.class);
     }
 
     @Test
     void director(){
         TourDirector director = new TourDirector(new DefaultTourBuilder());
         TourPlan tourPlan = director.packageA();
-        Assertions.assertThat(tourPlan).isInstanceOf(me.delusidiot.gof.builder.before.TourPlan.class);
+        Assertions.assertThat(tourPlan).isInstanceOf(TourPlan.class);
     }
 }

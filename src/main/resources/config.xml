@@ -5,5 +5,5 @@
     <bean id="hello" class="java.lang.String">
         <constructor-arg value="hello"/>
     </bean>
-    <bean id="whiteship" class="me.delusidiot.gof.abstract_factory.etc.ShipFactory"/>
+    <bean id="whiteship" class="me.delusidiot.gof.creational_patterns.abstract_factory.etc.ShipFactory"/>
 </beans>

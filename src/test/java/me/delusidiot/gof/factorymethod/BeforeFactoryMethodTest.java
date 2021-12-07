@@ -1,7 +1,7 @@
 package me.delusidiot.gof.factorymethod;
 
-import me.delusidiot.gof.factorymethod.before.Ship;
-import me.delusidiot.gof.factorymethod.before.ShipFactory;
+import me.delusidiot.gof.creational_patterns.factorymethod.before.Ship;
+import me.delusidiot.gof.creational_patterns.factorymethod.before.ShipFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
