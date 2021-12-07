@@ -9,7 +9,6 @@ public class AdapterInSpring {
     public static void main(String[] args) {
         DispatcherServlet dispatcherServlet = new DispatcherServlet();
         HandlerAdapter handlerAdapter = new RequestMappingHandlerAdapter();
-
     }
 
 }
